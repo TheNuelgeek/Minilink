@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #040A06;
+  color:#C0FF3A;
+  font-family: 'Inter', sans-serif;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.hero{
+  /* overflow: hidden; */
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.App{
+  max-width: 1755px;
+  height: 790px;
+  background: rgba(55, 133, 91, 0.68);
+  backdrop-filter: blur(11.5px);
+  border-radius: 39px;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+.circle-bg{
+  overflow:hidden;
+  width: 1300px;
+  height: 1300px;
+  position: absolute;
+  top: -200px;
+  right: -700px;
+  z-index: -1;
+
+}
+
+.main{
+  padding: 90px;
+
+}
+
+.main>h1{
+  max-width: 800px;
+  color: white;
+  padding: 0;
+  margin-top: 20px;    margin-top: 20px;
+  font-family: 'Kufam';
+  font-family: 'Kufam';
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 117%;
+}
+
+.main>h1>span{
+  color: #C0FF3A;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.input{
+  display: flex;
+  gap: 20px;
+}
+
+.input > input[type='text']{
+  width: 470px;
+  height: 70px;
+  background: #F8F7F7;
+  border-radius: 38px;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 10px;
+}
+
+.input > button{
+  width: 150px;
+  height: 70px;
+  background: #C0FF3A;
+  border-radius: 38px;
+  color: #45600C;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.input > button:hover{
+  background:#c1ff3a9d;
+}
+
+h3{
+  color: white;
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 > span > a{
+  color: #C0FF3A;
+  font-style: italic;
+  font-weight: bold;
+}
+
