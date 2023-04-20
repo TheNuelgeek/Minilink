@@ -156,7 +156,7 @@ h3 > span > a{
   }
   
   .input > input[type='text']{
-    width: 350px;
+    width: 320px;
     height: 60px;
   }
   
@@ -188,10 +188,11 @@ h3 > span > a{
 @media (max-width: 678px){
   body{
     padding: 0px;
+    overflow: visible;
   }
 
   .main>h1{
-    width: 340px;
+    width: 300px;
     font-size: 48px;
     line-height: 117%;
     margin-top: 230px;
@@ -205,14 +206,20 @@ h3 > span > a{
     margin-bottom: 30px;
   }
 
+  .main{
+    padding: 7px;
+  }
+
   .App{
 
-    width: 100%;
+    width: 98%;
     height: 60px; 
     margin-left:0;
     margin-right: 0;
     margin-top: 20px;
   }
+
+  
 
   .circle-bg{
     /* top: -17%;
