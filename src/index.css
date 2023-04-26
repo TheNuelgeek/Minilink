@@ -68,7 +68,12 @@ body{
   gap: 20px;
 }
 
-.input > input[type='text']{
+.newLink {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.input > input[type='text'], .newLink{
   width: 470px;
   height: 70px;
   background: #F8F7F7;
@@ -114,7 +119,10 @@ h3 > span > a{
   color: #C0FF3A;
   font-style: italic;
   font-weight: bold;
+  background-color: transparent;
+
 }
+
 
 @media (max-width: 1076px){
   .main>h1{
@@ -155,7 +163,11 @@ h3 > span > a{
    display: block;
   }
   
-  .input > input[type='text']{
+  .newLink > a {
+    font-size: medium;
+  }
+
+  .input > input[type='text'],.newLink{
     width: 320px;
     height: 60px;
   }
@@ -202,7 +214,7 @@ h3 > span > a{
     display: block;
   }
 
-  .input > input {
+  .input > input, .newLink{
     margin-bottom: 30px;
   }
 
