@@ -41,6 +41,7 @@ export default function ShortenApi() {
 
     const handleShorten = () => {
         postText();
+        getText();
         setInputValue('');
     }
 
@@ -62,7 +63,7 @@ export default function ShortenApi() {
     }
         
     useEffect(() => {
-        getText(); 
+         
         setIsLoading(false); // Set isLoading to false when API call is completed
     },[id])
                     
